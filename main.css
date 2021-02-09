@@ -6,12 +6,13 @@
 body{
     font-family: 'Bodoni Moda', serif;
     background-color: #EAEAEA;
+    font-size: 16px;
 }
 
 /* HEADER */
 #header{
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     padding: 10px;
     background-color: white;
 }
@@ -32,18 +33,20 @@ body{
 
 /* MAIN */
 
-main{
+.Container{
     width: 80%;
-    height: 600px;
-    margin: 50px auto;
+    margin: 0px auto;
+    padding: 15px;
     background-color: rgb(253, 251, 252);
+    border-radius: 5px;
 }
 
 /* MAIN HEAD */
 .main-head{
     width: 100%;
-    padding: 30px;
-    border-bottom: 1px solid rgba(2, 23, 50, 1) ;
+    margin: auto;
+    padding: 40px 100px;
+    border-bottom: 1px solid #EAEAEA;
 }
 
 .Task{
@@ -67,6 +70,66 @@ main{
 }
 
 /* MAIN BODY */
+
+.main-head{
+    margin-bottom: 30px;
+}
+.main-body{
+    margin-left: 50px;
+}
+
+/* LIST CONTENT */
+h2{
+    margin-bottom: 30px;
+}
+.icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.icon-check{
+    color: green;
+    font-size: 12px;
+    border: 1px solid green ;
+    border-radius: 50%;   
+}
+.icon-remove{
+    color: red;
+    font-size: 12px;
+    border: 1px solid;
+    border-radius: 50%;   
+}
+
+.List-item{
+    list-style: none;
+    margin-left:50px ;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* FOOTER */
+
+.foot {
+  padding: 10px;
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+#piè {
+  color: #6ed663
+}
+
+
 
 
 
