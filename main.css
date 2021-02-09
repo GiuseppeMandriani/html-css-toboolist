@@ -79,6 +79,7 @@ body{
 }
 
 /* LIST CONTENT */
+
 h2{
     margin-bottom: 30px;
 }
@@ -106,9 +107,9 @@ h2{
 }
 
 .List-item{
-    list-style: none;
     margin-left:50px ;
     margin-bottom: 15px;
+    list-style: none;
     vertical-align: middle;
     font-size: 14px;
     font-weight: 500;
@@ -119,10 +120,10 @@ h2{
     width: 80px;
     margin-left: 10px;
     padding: 5px;
+    color: white;
     font-size: 12px;
     text-align: center;
     vertical-align: middle;
-    color: white;
     background-color: rgb(118, 228, 243);
     border-radius: 10px;
 }
