@@ -114,6 +114,36 @@ h2{
     font-weight: 500;
 }
 
+.labels{
+    display: inline-block;
+    width: 80px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: rgb(118, 228, 243);
+    border-radius: 10px;
+}
+
+.labels-goals{
+    background-color: rgb(141, 10, 141);
+}
+.labels-recruiting{
+    background-color: rgb(110, 219, 168);
+}
+.labels-mobile{
+    background-color: rgb(238, 163, 24);
+}
+.labels-sales{
+    background-color: rgb(108, 192, 108);
+}
+
+.labels-website{
+    background-color: rgb(219, 146, 216);
+}
+
 
 /* FOOTER */
 
